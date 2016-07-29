@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * this starts the plugin.
  *
- * @link              https://wphuman.com
+ * @link              https://www.wphuman.com
  * @since             1.0.0
  * @package           Sunny
  *
  * @wordpress-plugin
  * Plugin Name:       Sunny (Connecting CloudFlare and WordPress)
- * Plugin URI:        http://tangrufus.com/refer/sunny
+ * Plugin URI:        https://www.wphuman.com/products/sunny/?utm_source=sunny&utm_medium=plugins&utm_term=Plugin%20URI&utm_campaign=wordpress%20org
  * Description:       Automatically clear CloudFlare cache. And, protect your WordPress site at DNS level.
- * Version:           1.5.3
+ * Version:           1.5.5
  * Author:            Tang Rufus
- * Author URI:        https://wphuman.com/
+ * Author URI:        https://www.wphuman.com/?utm_source=sunny&utm_medium=plugins&utm_term=Author%20URI&utm_campaign=wordpress%20org
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       sunny

@@ -2,9 +2,9 @@
 Contributors: tangrufus, wphuman
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=tangrufus%40gmail%2ecom&lc=HK&item_name=Sunny%20%28CloudFlare%20Management%29%20Plugin%20Donation&item_number=sunny%2edonation%2ewp%2eorg&amount=10%2e00&currency_code=USD&button_subtype=products&no_note=0&add=1&bn=PP%2dShopCartBF%3abtn_cart_LG%2egif%3aNonHostedGuest
 Tags: cloudflare, cache, CDN, performance, security, spam
-Requires at least: 3.6.0
-Tested up to: 4.1
-Stable tag: 1.5.3
+Requires at least: 4.0
+Tested up to: 4.2.2
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ Sunny automatically clears CloudFlare cache. And, protect your WordPress site at
 * Test your CloudFlare API key
 
 = Guide =
-* Step-by-step [tutorial](https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/)
+* Step-by-step [tutorial](https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/?utm_source=sunny&utm_medium=plugins&utm_term=Guide%20Step-by-step%20tutorial&utm_content=readme&utm_campaign=wordpress%20org)
 
 = How does Sunny different from CloudFlare's offical plugin? =
 
@@ -44,7 +44,7 @@ If you have written an article about `Sunny`, do [let me know](http://tangrufus.
 = Who make this plugin? =
 
 [Tang Rufus](http://tangrufus.com), a freelance developer for hire.
-I make [WP Human](https://wphuman.com) also.
+I make [WP Human](https://www.wphuman.com/?utm_source=sunny&utm_medium=plugins&utm_term=I%20make%20WP%20Human%20also&utm_content=readme&utm_campaign=wordpress%20org) also.
 
 = Requirement =
 * PHP 5.3 or later
@@ -58,12 +58,12 @@ I make [WP Human](https://wphuman.com) also.
 1. Test it with Connection Tester (via Settings Page)
 1. That's it!
 
-Check out this [step-by-step guide](https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/) for detail instructions.
+Check out this [step-by-step guide](https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/?utm_source=sunny&utm_medium=plugins&utm_term=Installation%20Step-by-step%20tutorial&utm_content=readme&utm_campaign=wordpress%20org) for detail instructions.
 
 
 == Frequently Asked Questions ==
 
-Check out this [step-by-step tutorial](https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/).
+Check out this [step-by-step tutorial](https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/?utm_source=sunny&utm_medium=plugins&utm_term=FAQ%20Step-by-step%20tutorial&utm_content=readme&utm_campaign=wordpress%20org).
 
 = Is this plugin written by CloudFlare, Inc.? =
 
@@ -102,7 +102,7 @@ If you come across this error, make sure that you have PHP 5.3 or later installe
 
 Confirmed that it doesn't work network wide. While this version of `Sunny` does not intended to support mulitsite, you might want to try activating `Sunny` on a per site basis (WPMU DEV has a step-by-step [tutorial](http://premium.wpmudev.org/manuals/wpmu-manual-2/activating-and-deactivating-plugins-on-a-per-site-basis/)). Please report your findings.
 
-Moreover, I am planning to write a mulitsite version. [Drop me a note](https://wphuman.com/contact/) if you want early asscess.
+Moreover, I am planning to write a mulitsite version. [Drop me a note](https://www.wphuman.com/contact/?utm_source=sunny&utm_medium=plugins&utm_term=Drop%20me%20a%20note&utm_content=readme&utm_campaign=wordpress%20org) if you want early asscess.
 
 
 == Screenshots ==
@@ -116,8 +116,9 @@ Moreover, I am planning to write a mulitsite version. [Drop me a note](https://w
 
 == Changelog ==
 
-= 2.0.0 =
+= 1.5.4 =
 * Fix: Postboxes not expanding or collapsing on click outside of `Sunny`
+* Fix: Broken links to [WP Human website](https://www.wphuman.com/?utm_source=sunny&utm_medium=plugins&utm_term=change%20log%201.5.4&utm_content=readme&utm_campaign=wordpress%20org)
 
 = 1.5.3 =
 * Fix: Showing empty admin bar for non-logged in users
@@ -170,13 +171,13 @@ Moreover, I am planning to write a mulitsite version. [Drop me a note](https://w
 = 1.4.11 =
 * New Feature: Integrate with [WordPress Zero Spam](https://wordpress.org/plugins/zero-spam)
 * Add: WP Human as contributor
-* Add: WP Human [tutorial](https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/) admin notice
+* Add: WP Human [tutorial](https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/) admin notice
 
 = 1.4.10 =
 * Update screenshots
 
 = 1.4.9 =
-* Add: WP Human [tutorial](https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/)
+* Add: WP Human [tutorial](https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/)
 * Add: URL input fields
 * Tweak: Use PHP `filter_var` to validate IPs and check localhost IPs
 * Tweak: Line breaks between input fields and labels
@@ -289,8 +290,11 @@ Initial Release
 
 == Upgrade Notice ==
 
+= 1.5.4 =
+Bug fixed.
+
 = 1.5.2 =
-Don't forget to check out [WP Human Blog](https://wphuman.com/blog)
+Don't forget to check out [WP Human Blog](https://www.wphuman.com/blog)
 
 = 1.4.16 =
 Sunny now works with Contact Form 7! And, zh_HK translation available!

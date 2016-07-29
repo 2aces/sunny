@@ -1,0 +1,481 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sunny 1.5.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2016-07-28 22:47-0300\n"
+"PO-Revision-Date: 2016-07-28 23:16-0300\n"
+"Last-Translator: Celso Bessa - 2Aces <celso.bessa@2aces.com.br>\n"
+"Language-Team: Celso bessa @2aces.com.br <contato@2aces.com.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-sunny-admin.php:110
+msgid "Sunny (Connecting CloudFlare and WordPress)"
+msgstr "Sunny (Connecting CloudFlare and WordPress)"
+
+#: admin/class-sunny-admin.php:111
+msgid "Sunny"
+msgstr "Sunny"
+
+#: admin/class-sunny-admin.php:139
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/class-sunny-admin.php:156
+msgid "Accounts"
+msgstr "Contas"
+
+#: admin/class-sunny-admin.php:157
+msgid "General"
+msgstr "Geral"
+
+#: admin/class-sunny-admin.php:158
+msgid "Emails"
+msgstr "Emails"
+
+#: admin/class-sunny-admin.php:159
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: admin/class-sunny-admin.php:160
+msgid "Integration"
+msgstr "Integração"
+
+#: admin/class-sunny-mailing-list-box.php:41
+msgid "WP Human Mailing List"
+msgstr "Lista de Email da WP Human"
+
+#: admin/class-sunny-updater.php:99
+#, php-format
+msgid ""
+"<strong>News: </strong> Sunny has been updated to version 1.5.4. From "
+"version 2 onwards, Sunny requires WP Cron. Be prepare for Sunny version 2, "
+"follow this <a href=\"%s\">tutorial</a> to set up WP Cron properly."
+msgstr ""
+"<strong>Novidade: </strong> Sunny foi atualizada para 1.5.4. A partir da "
+"versão 2.0.0, Sunny vai requerer WP Cron. Prepare-se para a versão 2, usando "
+"este <a href=\"%s\">tutorial</a> para configurar o WP Cron adequadamente."
+
+#: admin/class-sunny-updater.php:117
+#, php-format
+msgid ""
+"<strong>News: </strong> WP Human has published a <a href=\"%s\">tutorial</a> "
+"about using CloudFlare on WordPress. Be sure to <a href=\"%s\">check it out</"
+"a>."
+msgstr ""
+"<strong>Novidades: </strong> a WP Human publicou um <a href=\"%s\">tutorial</"
+"a> sobre usar CloudFlare no WordPress. Não deixe de <a href=\"%s\">ver</a> "
+"(em inglês)."
+
+#: admin/class-sunny-updater.php:136
+#, php-format
+msgid ""
+"<strong>Important: </strong> If you have previously installed Sunny version "
+"v1.3.0 or before, you would lost the Cloudflare credentials and settings. "
+"This is because version 1.5.0 is a major upgrade and most of the code is "
+"changed. <br /><strong>Good news</strong> Email notifications can been "
+"disabled since version 1.4.2. Click <a href=\"%s\"><strong>here</strong></a> "
+"to review all necessary settings."
+msgstr ""
+"<strong>Importante: </strong> Se você já tinha instalado Sunny versão 1.3.0 "
+"ou anterior, você deve ter perdido as credenciais e configurações "
+"Cloudflare. Isto aconteceu por quê a versão 1.5.0 é uma atualização profunda "
+"e muito do código foi mudado. <br /><strong>Boas notícias</strong> "
+"Notificações de Email podem ser desabilitadadas desde a versão 1.4.2. Clique "
+"<a href=\"%s\"><strong>aqui</strong></a> para rever as configurações "
+"necessárias."
+
+#: admin/mailer/class-sunny-email-template.php:73
+#: mailer/class-sunny-email-template.php:73
+msgid "Howdy "
+msgstr "Olá"
+
+#: admin/mailer/class-sunny-email-template.php:78
+#: mailer/class-sunny-email-template.php:78
+msgid "These IPs have been blacklisted in CloudFlare."
+msgstr "Estes IPs foram adicionados à lista negra na CloudFlare."
+
+#: admin/mailer/class-sunny-email-template.php:78
+#: mailer/class-sunny-email-template.php:78
+msgid "This IP has been blacklisted in CloudFlare."
+msgstr "Este IP foi adicionado à lista negra na CloudFlare."
+
+#: admin/mailer/class-sunny-email-template.php:87
+#: mailer/class-sunny-email-template.php:87
+msgid "IP Address"
+msgstr "Endereço IP"
+
+#: admin/mailer/class-sunny-email-template.php:89
+#: mailer/class-sunny-email-template.php:89
+msgid "Due To"
+msgstr "Devido a"
+
+#: admin/mailer/class-sunny-email-template.php:94
+#: mailer/class-sunny-email-template.php:94
+msgid "Date/Time"
+msgstr "Data / Horário"
+
+#: admin/mailer/class-sunny-email-template.php:102
+#: mailer/class-sunny-email-template.php:102
+msgid ""
+"These IPs would be locked out from your site <strong>forever</strong>. To "
+"unlist this IP please vist your <a href=\"https://www.cloudflare.com/threat-"
+"control/\">CloudFlare Dashboard</a>."
+msgstr ""
+"Estes IPs devem ficar banidos do seu site <strong>para sempre</strong>. Para "
+"remover estes IPs, por favor, visite <a href=\"https://www.cloudflare.com/"
+"threat-control/\">seu painel na CloudFlare</a>."
+
+#: admin/mailer/class-sunny-email-template.php:102
+#: mailer/class-sunny-email-template.php:102
+msgid ""
+"This IP would be locked out from your site <strong>forever</strong>. To "
+"unlist this IP please vist your <a href=\"https://www.cloudflare.com/threat-"
+"control/\">CloudFlare Dashboard</a>."
+msgstr ""
+"Este IPs devem ficar banidos do seu site <strong>para sempre</strong>. Para "
+"remover este IP, por favor, visite <a href=\"https://www.cloudflare.com/"
+"threat-control/\">seu painel na CloudFlare</a>."
+
+#: admin/mailer/class-sunny-email-template.php:107
+#: mailer/class-sunny-email-template.php:107
+#, php-format
+msgid ""
+"*This email was generated automatically by <a href=\"http://wordpress.org/"
+"plugins/sunny/\">Sunny(Connecting CloudFlare &amp; WordPress)</a>. To change "
+"your email preferences please visit the <a href=\"%s\">plugin settings</a>."
+msgstr ""
+"*Este email foi gerado automaticamente por <a href=\"http://wordpress.org/"
+"plugins/sunny/\">Sunny (Connecting CloudFlare &amp; WordPress)</a>. Para "
+"mudar suas preferências de email, por favor, visite  <a href=\"%s\">as "
+"configurações do plugin</a>."
+
+#: admin/mailer/class-sunny-mailer.php:78 mailer/class-sunny-mailer.php:78
+msgid "Blacklist Notification"
+msgstr "Notificação de Lista Negra"
+
+#: admin/settings/class-sunny-callback-helper.php:45
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr ""
+"A função callback usada para a configuração <strong>%s</strong> não foi "
+"encontrada."
+
+#: admin/settings/class-sunny-callback-helper.php:391
+msgid "Upload File"
+msgstr "Subir Arquivo"
+
+#: admin/settings/class-sunny-sanitization-helper.php:130
+msgid "Settings updated."
+msgstr "Configurações Atualizadas"
+
+#: admin/settings/class-sunny-settings.php:140
+msgid "CloudFlare Accounts"
+msgstr "Contas CloudFlare"
+
+#: admin/settings/class-sunny-settings.php:141
+msgid "This free version of Sunny only support a signle CloudFlare Account."
+msgstr "A versão grátis do Sunny suporta apenas uma conta CloudFlare."
+
+#: admin/settings/class-sunny-settings.php:146
+msgid "CloudFlare Email"
+msgstr "Email CloudFlare"
+
+#: admin/settings/class-sunny-settings.php:147
+msgid "The email address associated with the CloudFlare account."
+msgstr "O endereço de email associada à conta CloudFlare."
+
+#: admin/settings/class-sunny-settings.php:152
+msgid "CloudFlare API Key"
+msgstr "Chave de API da CloudFlare"
+
+#: admin/settings/class-sunny-settings.php:153
+msgid ""
+"This is the API key made available on your <a href='https://www.cloudflare."
+"com/my-account.html'>CloudFlare Account</a> page. Read <a href='https://www."
+"wphuman.com/make-cloudflare-supercharge-wordpress-sites/?"
+"utm_source=sunny&utm_medium=plugins&utm_term=find%20api"
+"%20key&utm_content=settings%20page&utm_campaign=wordpress%20org#api-"
+"key'>this tutorial</a> for detailed instruction"
+msgstr ""
+"Esta é a chave APU disponível em sua  <a href='https://www.cloudflare.com/my-"
+"account.html'>conta CloudFlare</a>. Leia<a href='https://www.wphuman.com/"
+"make-cloudflare-supercharge-wordpress-sites/?"
+"utm_source=sunny&utm_medium=plugins&utm_term=find%20api"
+"%20key&utm_content=settings%20page&utm_campaign=wordpress%20org#api-"
+"key'>este tutorial</a> para instruções detalhadas."
+
+#: admin/settings/class-sunny-settings.php:163
+msgid "Purger Settings"
+msgstr "Configurações do Expurgador"
+
+#: admin/settings/class-sunny-settings.php:168
+msgid "Homepage"
+msgstr "Página Inicial"
+
+#: admin/settings/class-sunny-settings.php:169
+msgid "Purge homepage whenever post updated.."
+msgstr "Expurgar a home page quando um post for atualizado"
+
+#: admin/settings/class-sunny-settings.php:174
+msgid "Purge Taxonomies"
+msgstr "Expurgar Taxonomias"
+
+#: admin/settings/class-sunny-settings.php:175
+msgid ""
+"Purge associated pages(e.g.: tags, categories and custom taxonomies) "
+"whenever post updated."
+msgstr ""
+"Expurga as páginas associadas (e.g. tags, categorias, taxonomias "
+"customizadas) quando um post for atualizado."
+
+#: admin/settings/class-sunny-settings.php:180
+msgid "Admin Bar Settings"
+msgstr "Configurações da Barra de Admin"
+
+#: admin/settings/class-sunny-settings.php:185
+msgid "Hide Admin Bar"
+msgstr "Não mostrar barra de Admin"
+
+#: admin/settings/class-sunny-settings.php:186
+msgid "Hide admin bar on public-facing pages(for logged in users only)."
+msgstr ""
+"Esconder a barra de admin nas páginas públicas do site (apenas para usuários "
+"ligados)."
+
+#: admin/settings/class-sunny-settings.php:191
+msgid "Security Settings"
+msgstr "Configurações de Segurança"
+
+#: admin/settings/class-sunny-settings.php:196
+msgid "Ban Login with Bad Usernames"
+msgstr "Banir tentativas de login com nomes de usuários vetados."
+
+#: admin/settings/class-sunny-settings.php:197
+msgid "Blacklist IP which attempt to login with bad usernames."
+msgstr "Coloca o IP que tentar logar com nomes vetados numa Lista Negra."
+
+#: admin/settings/class-sunny-settings.php:202
+msgid "Customize Bad Usernames"
+msgstr "Customizar Nomes de Usuários Vetados"
+
+#: admin/settings/class-sunny-settings.php:203
+msgid ""
+"Sunny bans <code>Admin</code> and <code>Administrator</code> by default. You "
+"can define your own bad usernames here, separated by commas.<br />Example: "
+"<code>root, test, wordpress</code>"
+msgstr ""
+"Sunny vai banir <code>Admin</code> e<code>Administrator</code> por padrão. "
+"Você pode definir sua própria lista de nomes de usuários vetados aqui, "
+"separado por vírgulas.<br />Exemplo: <code>root, test, wordpress</code>"
+
+#: admin/settings/class-sunny-settings.php:213
+msgid "Notification Settings"
+msgstr "Configurações de Notificações"
+
+#: admin/settings/class-sunny-settings.php:218
+msgid "Notification Frequency"
+msgstr "Frequ6encia de Notificação"
+
+#: admin/settings/class-sunny-settings.php:219
+msgid "How often do you want to receive notification emails?"
+msgstr "Com que frequência você quer receber emails de notificação?"
+
+#: admin/settings/class-sunny-settings.php:222
+msgid "Immediately"
+msgstr "Imediatamente"
+
+#: admin/settings/class-sunny-settings.php:223
+msgid "Hourly"
+msgstr "A cada hora"
+
+#: admin/settings/class-sunny-settings.php:224
+msgid "Twice Daily"
+msgstr "Duas vezes ao dia"
+
+#: admin/settings/class-sunny-settings.php:225
+msgid "Daily"
+msgstr "Diariamente"
+
+#: admin/settings/class-sunny-settings.php:226
+msgid "Never"
+msgstr "Nunca"
+
+#: admin/settings/class-sunny-settings.php:231
+msgid "Blacklist Notification Subject"
+msgstr "Assunto da notificação de Lista Negra"
+
+#: admin/settings/class-sunny-settings.php:232
+msgid "This subject will be used in all blacklist notification emails."
+msgstr "Este é o assunto dos emails de notificação de lista negra."
+
+#: admin/settings/class-sunny-settings.php:237
+msgid "Sender Settings"
+msgstr "Configurações do Remetente"
+
+#: admin/settings/class-sunny-settings.php:242
+msgid "From Email"
+msgstr "Email do remetente"
+
+#: admin/settings/class-sunny-settings.php:243
+msgid "Name the recipients will see in their email clients."
+msgstr "Nome que os destinatários verão no programa de email."
+
+#: admin/settings/class-sunny-settings.php:248
+msgid "From Address"
+msgstr "Endereço do Remetente"
+
+#: admin/settings/class-sunny-settings.php:249
+msgid "This email address will be used as the sender of the outgoing emails."
+msgstr "O email que será usado como remetente dos emails enviados."
+
+#: admin/settings/class-sunny-settings.php:259
+msgid "Integration Settings"
+msgstr "Configurações de Integração"
+
+#: admin/settings/class-sunny-settings.php:264
+msgid "iThemes Security"
+msgstr "Themes Security"
+
+#: admin/settings/class-sunny-settings.php:265
+msgid ""
+"When <a href=\"http://ithemes.com/security/\">iThemes Security</a> blocks an "
+"IP, tell CloudFlare to blacklist it also."
+msgstr ""
+"Quando o <a href=\"http://ithemes.com/security/\">iThemes Security</a> "
+"bloqueia um IP, informa à CloudFlare para bloquear também."
+
+#: admin/settings/class-sunny-settings.php:270
+msgid "Contact Form 7"
+msgstr "Contact Forma 7"
+
+#: admin/settings/class-sunny-settings.php:271
+msgid ""
+"When <a href=\"https://wordpress.org/plugins/contact-form-7/\">Contact Form "
+"7</a> marks a spam, tell CloudFlare to blacklist its IP."
+msgstr ""
+"Quando <a href=\"https://wordpress.org/plugins/contact-form-7/\">Contact "
+"Form 7</a> marca um spam, avisa à CloudFlare para bloquear o seu IP."
+
+#: admin/settings/class-sunny-settings.php:276
+msgid "Zero Spam"
+msgstr "Zero Spam"
+
+#: admin/settings/class-sunny-settings.php:277
+msgid ""
+"When <a href=\"https://wordpress.org/plugins/zero-spam/\">WordPress Zero "
+"Spam</a> blocks an access, ban its IP as well."
+msgstr ""
+"Quando <a href=\"https://wordpress.org/plugins/zero-spam/\">WordPress Zero "
+"Spam</a> bloqueia um acesso, bloqueia seu IP na CloudFlare também."
+
+#: admin/tools/class-sunny-tools.php:83
+msgid "Go"
+msgstr "Prossiga"
+
+#: admin/tools/class-sunny-tools.php:144 admin/tools/class-sunny-tools.php:146
+msgid "Test Connection"
+msgstr "Testar Conexão"
+
+#: admin/tools/class-sunny-tools.php:147
+msgid ""
+"To check if <code>Sunny</code> can connect to CloudFlare's server. <a "
+"href='https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/?"
+"utm_source=sunny&utm_medium=plugins&utm_term=Tools%20successful%20connection"
+"%20example&utm_content=settings%20page&utm_campaign=wordpress%20org#test-"
+"connection'>Here</a> is a successful example."
+msgstr ""
+"Para verificar se <code>Sunny</code> pode conectar aos servidores "
+"CloudFlare. <a href='https://www.wphuman.com/make-cloudflare-supercharge-"
+"wordpress-sites/?utm_source=sunny&utm_medium=plugins&utm_term=Tools"
+"%20successful%20connection%20example&utm_content=settings"
+"%20page&utm_campaign=wordpress%20org#test-connection'>Aqui</a> tem um "
+"exemplo quando dá certo."
+
+#: admin/tools/class-sunny-tools.php:152
+msgid "Zone Purger"
+msgstr "Expurgar da Zona"
+
+#: admin/tools/class-sunny-tools.php:154
+msgid "Clear all cache"
+msgstr "Limpar todo o Cache"
+
+#: admin/tools/class-sunny-tools.php:155
+msgid ""
+"Clear CloudFlare's cache.<br />This function will purge CloudFlare of any "
+"cached files. It may take up to 48 hours for the cache to rebuild and "
+"optimum performance to be achieved so this function should be used sparingly."
+msgstr ""
+"Limpa o cache da CloudFlare.<br /> Esta função vi limpar todos os arquivos "
+"da CloudFlare. Pode levar até 48 horas para o cache ser refeito e a melhor "
+"performance ser atingida, então, use esta função com cuidado."
+
+#: admin/tools/class-sunny-tools.php:160
+msgid "URL Purger"
+msgstr "Expurgador de URL"
+
+#: admin/tools/class-sunny-tools.php:162
+msgid "Clear cache"
+msgstr "Limpar Cache"
+
+#: admin/tools/class-sunny-tools.php:163
+msgid ""
+"Purge a post by URL and (if enabled) its associated pages(e.g: categories, "
+"tags and archives)."
+msgstr ""
+"Expurgar um post por URL e (se ativado), também as páginas associadas (e.g: "
+"categorias, tags e arquivos)."
+
+#: admin/tools/class-sunny-tools.php:167
+msgid "Post URL"
+msgstr "URL do Post"
+
+#: admin/tools/class-sunny-tools.php:168
+msgid ""
+"The URL you want to purge. Start with <code>http://</code> or <code>https://"
+"</code>"
+msgstr ""
+"A URL que você quer limpar. Comece com <code>http://</code> ou <code>https://"
+"</code>"
+
+#: includes/class-sunny-cron.php:102
+msgid "Every 10 mins"
+msgstr "A cada 10 minutos"
+
+#: modules/class-sunny-abstract-spam-module.php:105
+#: public/class-sunny-abstract-spam-module.php:120
+msgid " marks it as a spam"
+msgstr "Marca como spam"
+
+#: modules/class-sunny-ban-bad-login.php:115
+#: public/class-sunny-ban-bad-login.php:115
+#, php-format
+msgid "Tried to login as `%s`"
+msgstr "Tentou logar como `%s`"
+
+#: modules/class-sunny-contact-form-7.php:92
+#: public/class-sunny-contact-form-7.php:92
+msgid "Contact Form 7 marks it as a spam"
+msgstr "Contact Form 7 marca-o como Spam"
+
+#: modules/class-sunny-ithemes-security.php:78
+#, php-format
+msgid "iThemes Security lock this ip out because of %s"
+msgstr "iThemes Security travou este IP por quê %s"
+
+#: public/class-sunny-ithemes-security.php:129
+#, php-format
+msgid "iThemes Security lockout because of %s"
+msgstr "iThemes Security destravou por quê %sß"
