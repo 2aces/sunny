@@ -2,17 +2,17 @@
 # This file is distributed under the same license as the TODO package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Sunny 1.5.2\n"
+"Project-Id-Version: Sunny 1.5.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
-"POT-Creation-Date: 2014-12-23 15:44+0800\n"
-"PO-Revision-Date: 2014-12-23 15:44+0800\n"
+"POT-Creation-Date: 2015-06-15 22:10+0800\n"
+"PO-Revision-Date: 2015-06-15 22:10+0800\n"
 "Last-Translator: \n"
 "Language-Team: Tang Rufus @WP Human <rufus@wphuman.com>\n"
 "Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ../\n"
@@ -20,35 +20,35 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-sunny-admin.php:82
+#: admin/class-sunny-admin.php:110
 msgid "Sunny (Connecting CloudFlare and WordPress)"
 msgstr "Sunny (Connecting CloudFlare and WordPress)"
 
-#: admin/class-sunny-admin.php:83
+#: admin/class-sunny-admin.php:111
 msgid "Sunny"
 msgstr "Sunny"
 
-#: admin/class-sunny-admin.php:111
+#: admin/class-sunny-admin.php:139
 msgid "Settings"
 msgstr "設定"
 
-#: admin/class-sunny-admin.php:128
+#: admin/class-sunny-admin.php:156
 msgid "Accounts"
 msgstr "帳號"
 
-#: admin/class-sunny-admin.php:129
+#: admin/class-sunny-admin.php:157
 msgid "General"
 msgstr "一般"
 
-#: admin/class-sunny-admin.php:130
+#: admin/class-sunny-admin.php:158
 msgid "Emails"
 msgstr "電郵"
 
-#: admin/class-sunny-admin.php:131
+#: admin/class-sunny-admin.php:159
 msgid "Tools"
 msgstr "工具"
 
-#: admin/class-sunny-admin.php:132
+#: admin/class-sunny-admin.php:160
 msgid "Integration"
 msgstr "整合"
 
@@ -56,7 +56,15 @@ msgstr "整合"
 msgid "WP Human Mailing List"
 msgstr "WP Human 電子報"
 
-#: admin/class-sunny-updater.php:94
+#: admin/class-sunny-updater.php:99
+#, php-format
+msgid ""
+"<strong>News: </strong> Sunny has been updated to version 1.5.4. From "
+"version 2 onwards, Sunny requires WP Cron. Be prepare for Sunny version 2, "
+"follow this <a href=\"%s\">tutorial</a> to set up WP Cron properly."
+msgstr ""
+
+#: admin/class-sunny-updater.php:117
 #, php-format
 msgid ""
 "<strong>News: </strong> WP Human has published a <a href=\"%s\">tutorial</a> "
@@ -64,7 +72,7 @@ msgid ""
 "a>."
 msgstr ""
 
-#: admin/class-sunny-updater.php:113
+#: admin/class-sunny-updater.php:136
 #, php-format
 msgid ""
 "<strong>Important: </strong> If you have previously installed Sunny version "
@@ -112,9 +120,11 @@ msgstr "CloudFlare API 密鑰"
 #: admin/settings/class-sunny-settings.php:153
 msgid ""
 "This is the API key made available on your <a href='https://www.cloudflare."
-"com/my-account.html'>CloudFlare Account</a> page. Read <a href='https://"
-"wphuman.com/make-cloudflare-supercharge-wordpress-sites/#api-key'>this "
-"tutorial</a> for detailed instruction"
+"com/my-account.html'>CloudFlare Account</a> page. Read <a href='https://www."
+"wphuman.com/make-cloudflare-supercharge-wordpress-sites/?"
+"utm_source=sunny&utm_medium=plugins&utm_term=find%20api"
+"%20key&utm_content=settings%20page&utm_campaign=wordpress%20org#api-"
+"key'>this tutorial</a> for detailed instruction"
 msgstr ""
 
 #: admin/settings/class-sunny-settings.php:163
@@ -148,7 +158,7 @@ msgid "Hide Admin Bar"
 msgstr ""
 
 #: admin/settings/class-sunny-settings.php:186
-msgid "Hide admin bar on public-facing pages."
+msgid "Hide admin bar on public-facing pages(for logged in users only)."
 msgstr ""
 
 #: admin/settings/class-sunny-settings.php:191
@@ -279,7 +289,9 @@ msgstr "連線測試"
 #: admin/tools/class-sunny-tools.php:147
 msgid ""
 "To check if <code>Sunny</code> can connect to CloudFlare's server. <a "
-"href='https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/#test-"
+"href='https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/?"
+"utm_source=sunny&utm_medium=plugins&utm_term=Tools%20successful%20connection"
+"%20example&utm_content=settings%20page&utm_campaign=wordpress%20org#test-"
 "connection'>Here</a> is a successful example."
 msgstr ""
 

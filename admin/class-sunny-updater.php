@@ -50,7 +50,7 @@ class Sunny_Updater {
 	public function update() {
 
 		$sunny_version = get_option( 'sunny_version' );
-		$this->version = '1.5.3';
+		$this->version = '1.5.4';
 
 		if ( ! $sunny_version ) {
 		// 1.3.0 is the last version didn't use this option so we must add it
@@ -78,7 +78,30 @@ class Sunny_Updater {
 			$this->enqueue_to_v1_4_11_admin_notice();
 		}
 
+		// Upgrade from v1.5.3 or before
+		if ( version_compare( $sunny_version, '1.5.4', '<' ) ) {
+			$this->enqueue_to_v1_5_4_admin_notice();
+		}
+
 		update_option( 'sunny_version', $this->version );
+
+	}
+
+	/**
+	*
+	* @since  1.5.4
+	* @return void
+	*/
+	private function enqueue_to_v1_5_4_admin_notice() {
+
+		$notice = array(
+			'class'  => 'updated',
+			'message' => sprintf( __( '<strong>News: </strong> Sunny has been updated to version 1.5.4. From version 2 onwards, Sunny requires WP Cron. Be prepare for Sunny version 2, follow this <a href="%s">tutorial</a> to set up WP Cron properly.', $this->plugin_name ),
+				'https://www.wphuman.com/properly-set-up-wordpress-cron-with-pingdom/?utm_source=sunny&utm_medium=plugins&utm_term=wp%20cron%20tutorial&utm_content=update%20notice&utm_campaign=wordpress%20org'
+				)
+			);
+
+		$this->enqueue_admin_notice( $notice );
 
 	}
 

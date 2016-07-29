@@ -150,7 +150,7 @@ class Sunny_Settings {
 				'cloudflare_api_key' => array(
 					'id' => 'cloudflare_api_key',
 					'name' => __( 'CloudFlare API Key', $this->plugin_name ),
-					'desc' => __( "This is the API key made available on your <a href='https://www.cloudflare.com/my-account.html'>CloudFlare Account</a> page. Read <a href='https://wphuman.com/make-cloudflare-supercharge-wordpress-sites/#api-key'>this tutorial</a> for detailed instruction", $this->plugin_name ),
+					'desc' => __( "This is the API key made available on your <a href='https://www.cloudflare.com/my-account.html'>CloudFlare Account</a> page. Read <a href='https://www.wphuman.com/make-cloudflare-supercharge-wordpress-sites/?utm_source=sunny&utm_medium=plugins&utm_term=find%20api%20key&utm_content=settings%20page&utm_campaign=wordpress%20org#api-key'>this tutorial</a> for detailed instruction", $this->plugin_name ),
 					'type' => 'text'
 					)
 				) // end Accounts Settings
